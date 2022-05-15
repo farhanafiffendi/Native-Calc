@@ -36,11 +36,11 @@ export default function CalcTouch() {
                 <TouchableOpacity onPress={() => handleTouch('2')}>
                     <Text style={styles.num}>2</Text>
                 </TouchableOpacity>
-                <TouchableOpacity onPress={() => clear()}>
-                    <Text style={styles.operator}>C</Text>
-                </TouchableOpacity>
                 <TouchableOpacity onPress={() => delt()}>
                     <Text style={styles.operator}>D</Text>
+                </TouchableOpacity>
+                <TouchableOpacity onPress={() => clear()}>
+                    <Text style={styles.operator}>C</Text>
                 </TouchableOpacity>
             </View>
             <View style={styles.numStyle}>
